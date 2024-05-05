@@ -20,3 +20,16 @@ Running the server
 Runing the client
 
 ```cd client && cargo run```
+
+
+Sample log of Server:
+
+```Server listening on port 8080
+Received: CalcWork(CalcWork { input_data1: 10, input_data2: 10, work_type: Mult, result: None, error: None })
+Received: CalcWork(CalcWork { input_data1: 10, input_data2: 10, work_type: Sum, result: None, error: None })```
+
+
+
+Sample log of Client:
+```CalcWork { input_data1: 10, input_data2: 10, work_type: Mult, result: Some(100), error: None }
+CalcWork { input_data1: 10, input_data2: 10, work_type: Sum, result: Some(20), error: None }```
