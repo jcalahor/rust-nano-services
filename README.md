@@ -15,8 +15,8 @@ https://github.com/nanoservicesforge/example-tcp-messaging
 # Running the client and server
 Server can be run
 
-```cd server && cargo run
+```cd server && cargo run```
 
 On a different terminal run
 
-```cd client && cargo run
+```cd client && cargo run```
