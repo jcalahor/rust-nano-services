@@ -13,10 +13,10 @@ https://github.com/nanoservicesforge/example-tcp-messaging
 
 
 # Running the client and server
-Server can be run
+Running the server
 
 ```cd server && cargo run```
 
-On a different terminal run
+Runing the client
 
 ```cd client && cargo run```
